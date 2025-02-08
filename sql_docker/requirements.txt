@@ -1,1 +1,1 @@
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=P@ssw0rd" -e "MSSQL_PID=Express" -h sql-server -v /home/hazem/DataEngineer/sql_datawarehouse:/usr/database -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+docker container run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=P@ssw0rd" -e "MSSQL_PID=Express" -h sql-server -v /home/hazem/DataEngineer/sql_datawarehouse:/usr/database -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
